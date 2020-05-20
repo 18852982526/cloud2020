@@ -39,7 +39,7 @@ public class PaymentController {
         if (result == null) {
             return new CommonResult<>(400, "没有对应记录,id:" + id, null);
         } else {
-            return new CommonResult<>(200, "success,port:" + serverPort, result);
+            return new CommonResult<>(200, "success, port:" + serverPort, result);
         }
     }
 }
